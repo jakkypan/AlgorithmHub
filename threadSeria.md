@@ -27,11 +27,11 @@ synchronized保证线程之间的同步性，wait/notify保证线程之间的阻
 
 ### 5、CyclicBarrier
 
-回环栅栏的机制，具体见：[CyclicBarrier&Semaphore](CyclicBarrier&Semaphore.md)
+回环栅栏的机制，具体见：[CyclicBarrier&Semaphore](./ThreadSeria/CyclicBarrier&Semaphore.md)
 
 ### 6、Semaphore
 
-信号量的机制，这里利用了Semaphore.acquire()本身会阻塞的特性。具体见：[CyclicBarrier&Semaphore](CyclicBarrier&Semaphore.md)
+信号量的机制，这里利用了Semaphore.acquire()本身会阻塞的特性。具体见：[CyclicBarrier&Semaphore](./ThreadSeria/CyclicBarrier&Semaphore.md)
 
 ### 7、BlockingQueue
 
