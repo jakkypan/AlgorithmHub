@@ -37,7 +37,7 @@ synchronized保证线程之间的同步性，wait/notify保证线程之间的阻
 
 我这里采用capacity为1的ArrayBlockingQueue，利用了take()本身会阻塞的特性。代码里构建了2个ArrayBlockingQueue。
 
-### handler
+### 8、handler
 
 这个是android自己的一种机制了。写了2种方式的实现。
 
